@@ -1,0 +1,11 @@
+<div class='header'>
+  <div class='logo'>
+  </div>
+  <div class='nav-bar'>
+    <nav>
+      <li class='link-wrapper' *ngFor="let link of navigationLinks">
+        <a class='link' routerLink="{{link.url}}">{{link.name}}</a>
+      </li>
+    </nav>
+  </div>
+</div>

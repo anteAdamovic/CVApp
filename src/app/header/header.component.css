@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: #ecece9;
+}
+
+.nav-bar {
+  float: right;
+  margin-right: 20%;
+}
+
+.link-wrapper {
+  display: inline-block;
+}
+
+.link {  
+  display: block;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: gray;
+}
+
+.link:hover {
+  border-bottom: 4px solid lightgray;
+}
