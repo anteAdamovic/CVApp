@@ -6,6 +6,17 @@
     background-color: #ecece9;
   }
 
+  .logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 10px;
+    color: lightgray;
+  }
+
+  .path {
+    color: gray;
+  }
+
   .nav-bar {
     float: right;
     margin-right: 20%;
