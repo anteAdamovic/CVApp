@@ -1,5 +1,6 @@
 .content {
   margin-left: 20%;
+  max-width: 37%;
 }
 
 .contact-sidebar {
@@ -8,19 +9,21 @@
   top: 44px;
   width: 20%;
   height: 100%;
+  padding-left: 10px;
   margin-right: 20%;
   border-left: 5px solid #ecece9;
 }
 
 .contact-links {
-  margin-top: 100px;
-  padding-top: 30px;
+  margin-top: 50px;
+  padding-top: 20px;
   color: #b3b3b3;
 }
 
 .contact-picture img {
-  width: 30%;  
-  float: left;  
+  width: 30%;
+  min-width: 30%;
+  float: left;
   margin: 0px 30px 20px 20px;
   border-radius: 70px;
 }
@@ -32,12 +35,8 @@
 
 .social-links a i {
   font-size: 26px;
-  margin-right: 12px;
+  margin-right: 6px;
   cursor: pointer;
-}
-
-.social-links a i:hover {
-  color: #999999;
 }
 
 .contact-form {
@@ -56,35 +55,43 @@
   margin-bottom: 10px;
   padding: 5px 5px 5px 15px;
   border: 1px solid #bfbfbf;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 .contact-form input {
-  height: 2em;  
+  height: 2em;
   font-size: 14px;
 }
 
 .contact-form textarea {
   height: 15em;
+  padding-top: 10px;
   font-size: 16px;
 }
 
 .contact-form button {
-  height: 4em;
-  padding: 10px 5px;
-  margin-left: 8px;
+  height: 3em;
+  width: 110%;
+  margin-left: -5px;
+  padding: 5px 15px;
   border: 3px solid white;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
   color: #bfbfbf;
   cursor: pointer;
 }
 
 .contact-form button:hover {
   border: 3px solid #b3b3b3;
-  color: #b3b3b3;
+  color: #999999;
 }
 
 .contact-form button i {
   display: inline;
+}
+
+@media (min-width: 1480px) {
+
 }

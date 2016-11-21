@@ -1,4 +1,4 @@
-@media (min-width: 680px) {
+@media (min-width: 1480px) {
 
   .header {
     width: 100%;
@@ -32,5 +32,9 @@
   .link:hover {
     border-bottom: 4px solid lightgray;
   }
+
+}
+
+@media (min-width: 680px) {
 
 }
