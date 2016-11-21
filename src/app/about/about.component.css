@@ -1,3 +1,72 @@
 .content {
   margin-left: 20%;
 }
+
+.contact-sidebar {
+  position: fixed;
+  right: 0;
+  top: 44px;
+  width: 20%;
+  height: 100%;
+  margin-right: 20%;
+  border-left: 5px solid #ecece9;
+}
+
+.contact-links {
+  margin-top: 100px;
+  padding-top: 30px;
+  color: #b3b3b3;
+}
+
+.contact-picture img {
+  width: 30%;  
+  float: left;  
+  margin: 0px 30px 20px 20px;
+  border-radius: 70px;
+}
+
+.contact-form {
+  padding: 10px;
+}
+
+.contact-form * {
+  display: block;
+  width: 100%;
+}
+
+.contact-form input, textarea {
+  max-width: 100%;
+  margin-left: -3px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+.contact-form input {
+  height: 2em;  
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 15em;
+  font-size: 16px;
+}
+
+.contact-form button {
+  height: 4em;
+  padding: 10px 5px;
+  margin-left: 3px;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  border: 3px solid #b3b3b3;
+  color: #b3b3b3;
+}
+
+.contact-form button i {
+  display: inline;
+}
