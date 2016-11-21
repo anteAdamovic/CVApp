@@ -25,6 +25,21 @@
   border-radius: 70px;
 }
 
+.social-links {
+  margin-top: 10px;
+  padding-left: 39%;
+}
+
+.social-links a i {
+  font-size: 26px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.social-links a i:hover {
+  color: #999999;
+}
+
 .contact-form {
   padding: 10px;
 }
@@ -37,8 +52,11 @@
 .contact-form input, textarea {
   max-width: 100%;
   margin-left: -3px;
+  margin-right: -10px;
   margin-bottom: 10px;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 15px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;  
 }
 
 .contact-form input {
@@ -54,11 +72,11 @@
 .contact-form button {
   height: 4em;
   padding: 10px 5px;
-  margin-left: 3px;
+  margin-left: 8px;
   border: 3px solid white;
   border-radius: 5px;
   font-size: 14px;
-  color: white;
+  color: #bfbfbf;
   cursor: pointer;
 }
 
