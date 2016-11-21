@@ -1,17 +1,35 @@
 .content {
+  height: 100%;
   margin-left: 20%;
   max-width: 37%;
+}
+
+.about {
+  height: 100%;
+  padding-top: 20px;
+  color: #656565;
+  border-right: 5px solid #ecece9;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #999999;
+}
+
+.about hr {
+  width: 90%;
+  margin: auto;
+  border: 2px solid #bfbfbf;
 }
 
 .contact-sidebar {
   position: fixed;
   right: 0;
-  top: 44px;
+  top: 10px;
   width: 20%;
   height: 100%;
   padding-left: 10px;
-  margin-right: 20%;
-  border-left: 5px solid #ecece9;
+  margin-right: 22%;
 }
 
 .contact-links {
@@ -92,6 +110,6 @@
   display: inline;
 }
 
-@media (min-width: 1480px) {
+@media (min-width: 1485px) {
 
 }
