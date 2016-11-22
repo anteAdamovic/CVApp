@@ -4,17 +4,35 @@
   <div class='social-network-links-long'>
   </div>
   <div class='about'>
-    <h2> This is my story ! </h2>
+    <h2> This is my story ... </h2>
+    <hr/>
+    <br/>
     <p>My name is Ante and I was born in .93 in Zagreb, Croatia.</p>
     <br/>
     <p>Here, in the past 5 years, I've studied <b>Applied Mathematics</b> (<a href="https://www.math.pmf.unizg.hr/en" target="_blank">PMF</a>),
     <b>Engineering and Computing</b> (<a href="https://www.fer.unizg.hr/en" target="_blank">FER</a>) and now finally
     <b>IT</b> at the local university (<a href="http://www2.tvz.hr/en/" target="_blank">TVZ</a>).</p>
     <br/>
-    <p>For the past 4 years I've been delving deeper and deeper into software development, with languages ranging from desktops C/C++/C#/Java
-      over frontend Javascript/AngularJS all the way to backend PHP/SQL.</p>
+    <p>At my first year at <a href="https://www.fer.unizg.hr/en" target="_blank">FER</a> I wrote my first program. It was a simple C program that
+    scans your PC using recursive method and can be used to find specific files or extensions. It wasn't much but for someone who just learned how
+    to write functions and read files it was a big deal.</p>
     <br/>
-    <p>I gotta say that I kinda stuck to Front-End since the evolution of
+    <p> By the time I reached my 2nd year I already learned C++ and wrote my first actual program, it was a 2048 game, written in C++, with 
+      fully functional UI (which isn't that easy to write is base C++). You can find the program <a href="">here</a> and the code <a href="">here</a>.</p>
+    <br/>
+    <p>Not long after I started to delve into C#, around the same time I started working for Megatrend d.o.o, in summer 2014., in Zagreb. Mainly worked with IBM-based software
+      like Lotus Notes and IBM Domino. There I was writing back-end scripts using LotusScript and JavaScript for half a year which pushed me a lot towards
+      back-end development and the learning of Java.</p>
+    <br/>
+    <p>I've taken a year-long break and focused on my studies and to strenghten my programming skills. At that time
+      apart from learning Java I also went into web tehnologies (HTML, CSS, JavaScript and PHP) along with databases (SQL).</p>
+    <br/>
+    <p>In March, 2016. I started working with freelance company called 5iPol where I could use my newly aquired knowledge of back end and web technologies by writing
+      restful web services in C# and front end web aplications with AngularJS, which later became my most favorite language/framework of all time. 
+    </p>
+    <br/>
+    <p>For the past 4 years I've been delving deeper and deeper into software development, with languages ranging from desktops C/C++/C#/Java
+      over frontend Javascript/AngularJS all the way to backend PHP/SQL and I gotta say that I kinda stuck to Front-End since the evolution of
       the Internet is going wild and you can do so much more then you could a couple years ago. </p>
     <br/>
     <p> Front-end web applications are on pair with regular desktop applications in the terms of execution
@@ -26,6 +44,18 @@
     <br/>
     <hr/>
     <br/>
+    <div class='top-skills'>
+      <div class='skill-header'>
+        <div class='skill-nav' *ngFor="let topSkill of topSkills" (click)="changeActiveSkill(topSkill)">
+          {{topSkill.name}}
+        </div>
+      </div>
+      <div class='skill-content'>
+        {{selectedSkill.name}}
+      </div>
+    </div>
+    <br/>
+    <hr/>
   </div>
 </div>
 <div class='contact-sidebar'>

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Javascript",
+        "img": "",
+        "desc": "",
+        "knowledge": 5,
+        "experience": 5,
+        "passion": 5
+    },
+    {
+        "name": "AngularJS"
+    },
+    {
+        "name": "Java"
+    },
+    {
+        "name": "HTML/CSS"
+    },  
+    {
+        "name": "Responsive Design"  
+    }
+]

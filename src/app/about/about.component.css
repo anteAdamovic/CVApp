@@ -11,21 +11,47 @@
   border-right: 5px solid #ecece9;
 }
 
+.about p {
+  max-width: 98%;
+  font-size: 14px;
+}
+
 .about h2 {
-  margin-bottom: 20px;
-  color: #999999;
+    margin-bottom: 10px;
+    color: #4c4c4c;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .about hr {
-  width: 90%;
-  margin: auto;
-  border: 2px solid #bfbfbf;
+  width: 96%;
+  border: 1px solid #bfbfbf;
+}
+
+.top-skills {
+  width: 94%;
+  margin-left: 1%;
+  border-radius: 5px;
+}
+
+.skill-nav {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 5px 8px; /* for 1480px */
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skill-content {
+  background-color: #ecece9;
+  border-radius: 5px;
 }
 
 .contact-sidebar {
   position: fixed;
   right: 0;
-  top: 10px;
+  top: 45px;
   width: 20%;
   height: 100%;
   padding-left: 10px;
@@ -33,7 +59,7 @@
 }
 
 .contact-links {
-  margin-top: 50px;
+  margin-top: 25px;
   padding-top: 20px;
   color: #b3b3b3;
 }
@@ -98,6 +124,7 @@
   font-family: sans-serif;
   font-weight: bold;
   color: #bfbfbf;
+  background-color: #ecece9;
   cursor: pointer;
 }
 
