@@ -23,6 +23,12 @@
     font-weight: normal;
 }
 
+.about h3 {
+    margin-bottom: 10px;
+    color: #4c4c4c;
+    font-weight: normal;
+}
+
 .about hr {
   width: 96%;
   border: 1px solid #bfbfbf;
