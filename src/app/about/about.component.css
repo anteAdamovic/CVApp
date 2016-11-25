@@ -52,6 +52,58 @@
 .skill-content {
   background-color: #ecece9;
   border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.skill-content hr {
+  margin: auto;
+}
+
+.skill-content-img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 20px 15%;
+}
+
+.skill-content-description {
+  clear: both;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+
+.bars {
+  padding-top: 1px;
+}
+
+#knowledge {
+  background-color: #696;
+}
+
+#experience {
+  background-color: #a6c0c4;
+}
+
+#passion {
+  background-color: #c18b8b;
+}
+
+.skill-content-description-skill-name {
+  color: #94b3b8;
+}
+
+.progress {
+  max-width: 55%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  border-radius: 4px;
+}
+
+.progress span {
+  color: #efefef;
 }
 
 .contact-sidebar {

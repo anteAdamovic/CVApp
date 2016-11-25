@@ -1,22 +1,44 @@
 [
     {
-        "name": "Javascript",
-        "img": "",
-        "desc": "",
-        "knowledge": 5,
-        "experience": 5,
-        "passion": 5
+        "name": "JavaScript",
+        "url": "https://www.javascript.com",
+        "img": "javascript.png",
+        "description": "A requirement for every modern website, JavaScript provides a website with user-interaction capabilities and dynamic data manipulation to create great user experience and to build powerful web apps.",
+        "knowledge": 90,
+        "experience": 80,
+        "passion": 80
     },
     {
-        "name": "AngularJS"
+        "name": "AngularJS",
+        "url": "https://angularjs.org",
+        "img": "angular.png",
+        "description": "A framework of such power it can make ground shake, AngularJS is one of the best tools, for building single-page web apps, of all time as well as my most favorite framework.",
+        "knowledge": 90,
+        "experience": 90,
+        "passion": 100
     },
     {
-        "name": "Java"
+        "name": "Java",
+        "img": "java.png",
+        "description": "",
+        "knowledge": 70,
+        "experience": 40,
+        "passion": 70
     },
     {
-        "name": "HTML / CSS"
+        "name": "CSS",
+        "img": "css3.png",
+        "description": "",
+        "knowledge": 70,
+        "experience": 60,
+        "passion": 60
     },  
     {
-        "name": "Responsive Design"  
+        "name": "Responsive Design",
+        "img": "responsive.png",
+        "description": "",
+        "knowledge": 70,
+        "experience": 80,
+        "passion": 70  
     }
 ]

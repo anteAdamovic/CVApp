@@ -60,7 +60,29 @@
         </div>
       </div>
       <div class='skill-content'>
-        {{selectedSkill.name}}
+        <img class='skill-content-img' src="../../assets/{{selectedSkill.img}}">
+        <div class='bars'>
+          <div class="progress">
+            <div id='knowledge' class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <span> Knowledge </span>
+            </div>
+          </div>
+          <div class="progress">
+            <div id='experience' class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <span> Experience </span>
+            </div>
+          </div>
+          <div class="progress">
+            <div id='passion' class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <span> Passion </span>
+            </div>
+          </div>
+        </div>
+        <hr/>           
+        <p class='skill-content-description'>
+          <span class='skill-content-description-skill-name'>{{selectedSkill.name}} :: </span>
+          {{selectedSkill.description}}  
+        </p>
       </div>
     </div>
     <br/>

@@ -34,6 +34,9 @@ export class AboutComponent implements OnInit {
 
   changeActiveSkill(skill) {
     this.selectedSkill = skill;
+    document.getElementById('knowledge').style.width = skill.knowledge + '%';
+    document.getElementById('experience').style.width = skill.experience + '%';
+    document.getElementById('passion').style.width = skill.passion + '%';
   }
 
   private setActives() {
@@ -42,7 +45,7 @@ export class AboutComponent implements OnInit {
     }
 
     this.topSkills[0]['active'] = true;
-    this.selectedSkill = this.topSkills[0];
+    this.changeActiveSkill(this.topSkills[0]);
   }
 
 
