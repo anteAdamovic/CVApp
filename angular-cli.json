@@ -9,6 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "app/settings",
+        "fontAwesome",
         "favicon.ico"
       ],
       "index": "index.html",
