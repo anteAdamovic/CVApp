@@ -3,7 +3,7 @@
         "name": "JavaScript",
         "url": "https://www.javascript.com",
         "img": "javascript.png",
-        "description": "A requirement for every modern website, JavaScript provides a website with user-interaction capabilities and dynamic data manipulation to create great user experience and to build powerful web apps.",
+        "description": "JavaScript is the base tool of every front-end developer as it provides user-interaction capabilities and dynamic data manipulation to create great user experience and to build powerful web apps.",
         "knowledge": 90,
         "experience": 80,
         "passion": 80
@@ -12,7 +12,7 @@
         "name": "AngularJS",
         "url": "https://angularjs.org",
         "img": "angular.png",
-        "description": "A framework of such power it can make ground shake, AngularJS is one of the best tools, for building single-page web apps, of all time as well as my most favorite framework.",
+        "description": "A framework of such power it can make ground shake, AngularJS is one of the best tools for building single-page web apps, as well as my most favorite framework.",
         "knowledge": 90,
         "experience": 90,
         "passion": 100
@@ -32,13 +32,13 @@
         "knowledge": 70,
         "experience": 60,
         "passion": 60
-    },  
+    },
     {
         "name": "Responsive Design",
         "img": "responsive.png",
         "description": "",
         "knowledge": 70,
         "experience": 80,
-        "passion": 70  
+        "passion": 70
     }
 ]

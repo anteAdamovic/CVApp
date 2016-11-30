@@ -17,7 +17,7 @@
     scans your PC using recursive method and can be used to find specific files or extensions. It wasn't much but for someone who just learned how
     to write functions and read files it was a big deal.</p>
     <br/>
-    <p> By the time I reached my 2nd year I already learned C++ and wrote my first actual program, it was a 2048 game, written in C++, with 
+    <p> By the time I reached my 2nd year I already learned C++ and wrote my first actual program, it was a 2048 game, written in C++, with
       fully functional UI (which isn't that easy to write is base C++). You can find the program <a href="">here</a> and the code <a href="">here</a>.</p>
     <br/>
     <p>Not long after I started to delve into C#, around the same time I started working for Megatrend d.o.o, in summer 2014., in Zagreb. I've mainly worked with IBM-based software
@@ -28,7 +28,7 @@
       apart from learning Java I also went into web tehnologies (HTML, CSS, JavaScript and PHP) along with databases (SQL).</p>
     <br/>
     <p>In March, 2016. I started working with freelance company called 5iPol where I could use my newly aquired knowledge of back end and web technologies by writing
-      restful web services in C# and front end web aplications with AngularJS, which later became my most favorite framework of all time. 
+      restful web services in C# and front end web aplications with AngularJS, which later became my most favorite framework of all time.
     </p>
     <br/>
     <p>Currently I'm working for Keeper Solutions, an Irish Human Resources company, that is helping other companies find
@@ -47,7 +47,7 @@
       and optimization, while being a lot more compatible over a wide range of devices.</p>
     <br/>
     <p> If you're building a mobile app it's worth considering a mobile web aplication since, instead of building apps for 3 different platforms
-      (Windows, Android, iOS) in 3 different languages, you can simply write a mobile web application using modern frameworks such as 
+      (Windows, Android, iOS) in 3 different languages, you can simply write a mobile web application using modern frameworks such as
       Ionic and Angular, saves a lot of time, money and works equally well on all devices. </p>
     <br/>
     <br/>
@@ -55,7 +55,7 @@
     <hr/>
     <div class='top-skills'>
       <div class='skill-header'>
-        <div class='skill-nav' *ngFor="let topSkill of topSkills" (click)="changeActiveSkill(topSkill)">
+        <div class='skill-nav' [ngClass]="{'skill-nav-selected': selectedSkill.name == topSkill.name}" *ngFor="let topSkill of topSkills" (click)="changeActiveSkill(topSkill)">
           {{topSkill.name}}
         </div>
       </div>
@@ -78,10 +78,10 @@
             </div>
           </div>
         </div>
-        <hr/>           
+        <hr/>
         <p class='skill-content-description'>
           <span class='skill-content-description-skill-name'>{{selectedSkill.name}} :: </span>
-          {{selectedSkill.description}}  
+          {{selectedSkill.description}}
         </p>
       </div>
     </div>
@@ -89,6 +89,7 @@
     <hr/>
   </div>
 </div>
+
 <div class='contact-sidebar'>
   <div class='contact-header'>
     <div class='contact-picture'>
