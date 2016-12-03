@@ -4,7 +4,7 @@
         "url": "https://www.javascript.com",
         "img": "javascript.png",
         "description": "JavaScript is the base tool of every front-end developer as it provides user-interaction capabilities and dynamic data manipulation to create great user experience and to build powerful web apps.",
-        "knowledge": 90,
+        "knowledge": 80,
         "experience": 80,
         "passion": 80
     },
@@ -12,31 +12,31 @@
         "name": "AngularJS",
         "url": "https://angularjs.org",
         "img": "angular.png",
-        "description": "A framework of such power it can make ground shake, AngularJS is one of the best tools for building single-page web apps, as well as my most favorite framework.",
+        "description": "A framework of such power it can make ground shake, AngularJS is one of the best tools for building single-page web apps, as well as my most favorite framework. It's also one of the most popular JS platforms of all time.",
         "knowledge": 90,
-        "experience": 90,
+        "experience": 80,
         "passion": 100
     },
     {
         "name": "Java",
         "img": "java.png",
-        "description": "",
+        "description": "An object-orianteted, class-based language that can run on any platform which supports JVM. Java gives a lot of opportunities to build awesome cross-platform apps and is my dearest language for building desktop applications and web services.",
         "knowledge": 70,
         "experience": 40,
-        "passion": 70
+        "passion": 90
     },
     {
         "name": "CSS",
         "img": "css3.png",
-        "description": "",
+        "description": "CSS is one of the base tools, along with HTML and JS, for any web developer used to create visually engaging websites. CSS is for web developers and designers what a stone was for David (vs Goliath).",
         "knowledge": 70,
-        "experience": 60,
+        "experience": 70,
         "passion": 60
     },
     {
         "name": "Responsive Design",
         "img": "responsive.png",
-        "description": "",
+        "description": "In the information era, building responsive websites isn't an option anymore it's a necessity. I always write my apps responsive on a wide range of devices for greater user experience (phone, tablet and pc).",
         "knowledge": 70,
         "experience": 80,
         "passion": 70

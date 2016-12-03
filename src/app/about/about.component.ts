@@ -21,6 +21,10 @@ export class AboutComponent implements OnInit {
     console.log(a);
   }
 
+  notActiveYet() {
+    alert("This feture isn't working yet, contact me on one of the social networks instead.");
+  }
+
   ngOnInit() {
     this.http.getTopSkills()
                 .subscribe(

@@ -8,10 +8,11 @@ import { ExperienceComponent } from '../experience/experience.component';
 import { BlogComponent } from '../blog/blog.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: AboutComponent },
+  { path: 'home', component: AboutComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'experience', component: ExperienceComponent },
-  { path: 'blog', component: BlogComponent }
+  { path: 'experience', component: AboutComponent },
+  { path: 'blog', component: AboutComponent }
 ];
 
 @NgModule({

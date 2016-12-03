@@ -4,6 +4,7 @@
   <div class='social-network-links-long'>
   </div>
   <div class='about'>
+    <div class='work-in-progress'>This page is working in progress and will break on resolutions with less then 1485px width.</div>
     <h2> This is my story ... </h2>
     <hr/>
     <br/>
@@ -11,14 +12,14 @@
     <br/>
     <p>Here, in the past 5 years, I've studied <b>Applied Mathematics</b> (<a href="https://www.math.pmf.unizg.hr/en" target="_blank">PMF</a>),
     <b>Engineering and Computing</b> (<a href="https://www.fer.unizg.hr/en" target="_blank">FER</a>) and now finally
-    <b>IT</b> at the local university (<a href="http://www2.tvz.hr/en/" target="_blank">TVZ</a>).</p>
+    <b>IT</b> at the local university (<a href="http://www2.tvz.hr/en/studiji/strucni-studij-informatike/" target="_blank">TVZ</a>).</p>
     <br/>
     <p>At my first year at <a href="https://www.fer.unizg.hr/en" target="_blank">FER</a> I wrote my first program. It was a simple C program that
     scans your PC using recursive method and can be used to find specific files or extensions. It wasn't much but for someone who just learned how
     to write functions and read files it was a big deal.</p>
     <br/>
     <p> By the time I reached my 2nd year I already learned C++ and wrote my first actual program, it was a 2048 game, written in C++, with
-      fully functional UI (which isn't that easy to write is base C++). You can find the program <a href="">here</a> and the code <a href="">here</a>.</p>
+      fully functional UI (which isn't that easy to write is base C++).</p>
     <br/>
     <p>Not long after I started to delve into C#, around the same time I started working for Megatrend d.o.o, in summer 2014., in Zagreb. I've mainly worked with IBM-based software
       like Lotus Notes and IBM Domino. There I was writing back-end scripts using LotusScript and JavaScript for half a year which pushed me a lot towards
@@ -108,10 +109,10 @@
     </div>
   </div>
   <div class='contact-form'>
-    <form>
-      <input type='email' placeholder='Your e-mail'>
-      <textarea placeholder='Your message ...'></textarea>
-      <button type='submit'>
+    <form action='../settings/sendMail.php'>
+      <input type='email' name='email' placeholder='Your e-mail'>
+      <textarea name='message' placeholder='Your message ...'></textarea>
+      <button type='submit' (click)="notActiveYet()">
         Send
         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
       </button>
