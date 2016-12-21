@@ -22,7 +22,7 @@ export class AboutComponent implements OnInit {
   }
 
   notActiveYet() {
-    alert("This feture isn't working yet, contact me on one of the social networks instead.");
+    alert("This feture isn't working yet, contact me on one of the social networks instead or on email ante.adamovic93@gmail.com.");
   }
 
   ngOnInit() {
