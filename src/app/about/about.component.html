@@ -4,7 +4,7 @@
   <div class='social-network-links-long'>
   </div>
   <div class='about'>
-    <div class='work-in-progress'>This page is work in progress and will break on resolutions with less then 1485px width.</div>
+    <div class='work-in-progress'>This page is work in progress and will break on resolutions with less then 680px width.</div>
     <h2> This is my story ... </h2>
     <hr/>
     <br/>
@@ -91,7 +91,11 @@
   </div>
 </div>
 
-<div class='contact-sidebar'>
+<div class='contact-sidebar-icon' (click)='slide()' [ngClass]="{'contact-sidebar-icon-border': !slideAnimation}">
+  <img src="../../assets/avatar.jpg" title='Click to show contact form.'>
+</div>
+
+<div class='contact-sidebar' [ngClass]="{'slide': slideAnimation}">
   <div class='contact-header'>
     <div class='contact-picture'>
       <img src="../../assets/avatar.jpg">

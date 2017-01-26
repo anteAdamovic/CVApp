@@ -8,5 +8,10 @@ import './rxjs-operators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+
+  ngOnInit() {
+    // Hide loader after page loads
+    document.getElementsByClassName('loader')[0].style.display = 'none';
+  }
+
 }

@@ -10,6 +10,7 @@ import { HttpService } from '../http.service';
 export class AboutComponent implements OnInit {
   topSkills: any = [];
   selectedSkill: any = {};
+  slideAnimation = false;
 
   constructor(private http: HttpService) { 
     let a = {
@@ -19,6 +20,10 @@ export class AboutComponent implements OnInit {
     console.log(a);
     a['c'] = 1;
     console.log(a);
+  }
+
+  slide() {
+    this.slideAnimation = !this.slideAnimation;
   }
 
   notActiveYet() {
