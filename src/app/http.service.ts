@@ -7,6 +7,7 @@ import { Observable } from 'rxjs/Observable';
 export class HttpService {
   private navigationLinksUrl: string = 'app/settings/navigationLinks.json';
   private topSkillsUrl: string = 'app/settings/topSkills.json';
+  private sendEmailUrl: string = 'http://ante.co.nf/app/settings/sendMail.php';
 
   constructor(private http: Http) { }
 
@@ -20,6 +21,16 @@ export class HttpService {
     return this.http.get(this.topSkillsUrl)
                     .map(this.extractData)
                     .catch(this.handleError);
+  }
+
+  sendMail(email, title, message): Observable<any> {
+    return this.http.get(this.constructEmailString(email, title, message))
+                    .map(this.extractData)
+                    .catch(this.handleError);
+  }
+
+  private constructEmailString(email, title, message): string {
+    return this.sendEmailUrl + '?email=' + email + '&title=' + title + '&message=' + message;
   }
 
   private extractData(res: Response) {
@@ -36,7 +47,7 @@ export class HttpService {
     } else {
       errorMessage = error.message ? error.message : error.toString();
     }
-
+    alert('Something went wront.');
     console.error(errorMessage);
     return Observable.throw(errorMessage);
   }

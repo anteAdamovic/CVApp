@@ -11,7 +11,7 @@ export class AppComponent {
 
   ngOnInit() {
     // Hide loader after page loads
-    document.getElementsByClassName('loader')[0].style.display = 'none';
+    // document.getElementsByClassName('loader')[0].style.display = 'none';
   }
 
 }

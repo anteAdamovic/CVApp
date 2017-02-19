@@ -1,7 +1,12 @@
 <?php
-  phpinfo();
-  $path = $_SERVER['DOCUMENT_ROOT'] . "/messages";
-  echo($path . "\n");
-  $filename = 'random';
-  fopen($path . "/" . $filename, "w") or die("Unable to open file!");
+  $to      = 'ante.adamovic93@gmail.com';
+  $subject = 'Contact Request - ' . $_GET['title'];
+  $message = $_GET['message'];
+  $headers = 'From: ' . $_GET['email'];
+
+  if(strlen($_GET['message']) && strlen($_GET['email']))
+    echo json_encode(array('status' => @mail($to, $subject, $message, $headers)));
+  else {
+    echo json_encode(array('status' => 'false'));
+  }
 ?>

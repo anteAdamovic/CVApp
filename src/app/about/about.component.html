@@ -56,7 +56,7 @@
     <hr/>
     <div class='top-skills'>
       <div class='skill-header'>
-        <div class='skill-nav' [ngClass]="{'skill-nav-selected': selectedSkill.name == topSkill.name}" *ngFor="let topSkill of topSkills" (click)="changeActiveSkill(topSkill)">
+        <div class='skill-nav' [ngClass]="{'skill-nav-selected': selectedSkill.name == topSkill.name}" *ngFor="let topSkill of topSkills" (click)="selectSkill(topSkill)">
           {{topSkill.name}}
         </div>
       </div>
@@ -113,12 +113,18 @@
     </div>
   </div>
   <div class='contact-form'>
-    <form action='../settings/sendMail.php'>
-      <input type='email' name='email' placeholder='Your e-mail'>
-      <textarea name='message' placeholder='Your message ...'></textarea>
-      <button type='submit' (click)="notActiveYet()">
-        Send
-        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+    <form id='contactForm'>
+      <input type='email' name='email' placeholder='E-mail'>
+      <input type='text' name='title' placeholder='Title'>
+      <textarea name='message' placeholder='Message ...'></textarea>
+      <button id='submitButton' (click)="sendMail()" [disabled]="sendingEmail">
+        <span *ngIf="!sendingEmail">
+          Send
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        </span>
+        <span *ngIf="sendingEmail">
+          Sending ...
+        </span>
       </button>
     </form>
   </div>
